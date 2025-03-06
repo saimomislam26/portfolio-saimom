@@ -3,36 +3,38 @@ import { motion } from "framer-motion";
 
 import ProjectsText from "./ProjectsText"
 import SingleProject from "./SingleProject"
-
-
+import project1 from '../../assets/images/website-img-1.jpg'
+import project2 from '../../assets/images/website-img-2.webp'
+import project3 from '../../assets/images/website-img-3.jpg'
+import project4 from '../../assets/images/website-img-4.jpg'
 
 const projects = [
   {
     name: "Bug Resistance - [E-Learning]",
     year: "2022",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: project1,
     link: "https://bugresistance.com/",
   },
   {
     name: "Office Portal",
     year: "2023",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: project2,
     link: "https://managementportal-saimoms-projects.vercel.app/signin",
   },
   {
     name: "Quiz Game",
     year: "2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: project3,
     link: "https://glowing-snickerdoodle-8adedf.netlify.app/",
   },
   {
     name: " আয়বয়-[Finance Management]",
     year: "2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: project4,
     link: "https://ayebya.vercel.app/login",
   },
 ];

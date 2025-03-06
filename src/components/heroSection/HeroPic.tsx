@@ -1,7 +1,7 @@
 
 import { fadeIn } from "../../framerMotion/variant";
 import { motion } from "framer-motion";
-
+import saimom from '../../assets/images/hero-pic.png'
 const HeroPic = () => {
   return (
     <motion.div
@@ -12,8 +12,8 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/hero-pic.png"
-        alt="Abdelrahman Qassem"
+        src={saimom}
+        alt="Saimom Islam"
         className="max-h-[450px] w-auto"
       />
 
