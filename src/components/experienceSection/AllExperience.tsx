@@ -17,7 +17,7 @@ const experiences = [
   },
   {
     job: "Senior Software Engineer",
-    company: "Nucamp",
+    company: "Next Solution Lab",
     date: "2022 January - Present",
     responsibilities: [
       "Implementing reusable components.",
