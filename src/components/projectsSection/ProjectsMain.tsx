@@ -3,12 +3,20 @@ import { motion } from "framer-motion";
 
 import ProjectsText from "./ProjectsText"
 import SingleProject from "./SingleProject"
+import myrobi from '../../assets/images/my-robi.png'
 import project1 from '../../assets/images/website-img-1.jpg'
 import project2 from '../../assets/images/website-img-2.webp'
 import project3 from '../../assets/images/website-img-3.jpg'
 import project4 from '../../assets/images/website-img-4.jpg'
 
 const projects = [
+  {
+    name: "My Robi - [Backend Developer]",
+    year: "2025",
+    align: "left",
+    image: myrobi,
+    link: "https://play.google.com/store/apps/details?id=net.omobio.robisc&hl=en&pli=1",
+  },
   {
     name: "Bug Resistance - [E-Learning]",
     year: "2022",

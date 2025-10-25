@@ -16,14 +16,25 @@ const experiences = [
     ],
   },
   {
-    job: "Senior Software Engineer",
+    job: "Software Engineer",
     company: "Next Solution Lab",
-    date: "2022 January - Present",
+    date: "2022 January - 2025 May",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
       "Working on the performance of web applications.",
       "Generating new ideas for better user experience.",
+    ],
+  },
+  {
+    job: "Software Engineer",
+    company: "Portonics Ltd.",
+    date: "2025 June - Present",
+    responsibilities: [
+      "Working on microservice architecture.",
+      "Participating in large scale application. 20 Million+ users.",
+      "Working on the performance of microservices.",
+      "Collaborating with big cross-functional teams.",
     ],
   },
  
@@ -36,7 +47,7 @@ const AllExperience = () => {
         return (
           <>
             <SingleExperience key={index} experience={experience} />
-            {index < 1 ? (
+            {index < experiences.length - 1 ? (
               <motion.div
                 variants={fadeIn("right", 0)}
                 initial="hidden"
