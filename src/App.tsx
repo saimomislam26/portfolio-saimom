@@ -1,32 +1,27 @@
-import AboutMeMain from "./components/aboutMeSection/AboutMeMain"
-import ContactMeMain from "./components/contactMeSection/ContactMeMain"
-import ExperienceMain from "./components/experienceSection/ExperienceMain"
-import FooterMain from "./components/footer/FooterMain"
-import HeroGradient from "./components/heroSection/HeroGradient"
-import HeroMain from "./components/heroSection/HeroMain"
-import NavbarMain from "./components/navbar/NavbarMain"
-import ProjectsMain from "./components/projectsSection/ProjectsMain"
-import SkillsMain from "./components/skilssSection/SkillsMain"
-import SubSkills from "./components/skilssSection/SubSkills"
-import SubHeroSection from "./components/subherosection/SubHeroSection"
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-function App() {
-
-  return (
-    <main className="font-body">
-      <NavbarMain />
-      <HeroMain />
-      <HeroGradient />
-      <SubHeroSection />
-      <AboutMeMain />
-      <SkillsMain />
-      <SubSkills />
-      <ExperienceMain />
-      <ProjectsMain/>
-      <ContactMeMain/>
-      <FooterMain/>
+const App = () => (
+  <>
+    <Navbar />
+    <main>
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Blog />
+      <Contact />
     </main>
-  )
-}
+    <Footer />
+  </>
+);
 
-export default App
+export default App;
